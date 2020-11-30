@@ -1,0 +1,21 @@
+{
+    "id": "payments",
+    "name": "Payments",
+    "description": "This add-on enables deposits and withdrawals functionality.",
+    "providers": [
+        "Packages\\Payments\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "payments",
+    "source_path": "src",
+    "namespace": "Packages\\Payments\\",
+    "static": {
+        "DepositMethodSeeder": "database/seeds",
+        "DepositsWithdrawalsSeeder": "database/seeds",
+        "PaymentsPackageSeeder": "database/seeds",
+        "PaymentGatewaySeeder": "database/seeds",
+        "WithdrawalMethodSeeder": "database/seeds"
+    },
+    "purchase_url": "http://bit.ly/add-on-payments-pro",
+    "min_app_version": "1.14.2",
+    "hash": "051c5f3935ccaa7e3d41ba84f6589668"
+}

@@ -1,0 +1,15 @@
+{
+    "id": "game-dice-3d",
+    "name": "Dice 3D",
+    "description": "This add-on implements Dice 3D game.",
+    "providers": [
+        "Packages\\GameDice3D\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-dice-3d",
+    "source_path": "src",
+    "namespace": "Packages\\GameDice3D\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/jd4P6",
+    "min_app_version": "1.15.0",
+    "hash": "8339a57d6c012a5fd0929c5f94f9a2e8"
+}

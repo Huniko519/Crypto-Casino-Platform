@@ -1,0 +1,15 @@
+{
+    "id": "game-lucky-wheel",
+    "name": "Lucky Wheel",
+    "description": "This add-on allows to create Lucky wheel games with different settings.",
+    "providers": [
+        "Packages\\GameLuckyWheel\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-lucky-wheel",
+    "source_path": "src",
+    "namespace": "Packages\\GameLuckyWheel\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/4YAv1",
+    "min_app_version": "1.15.0",
+    "hash": "2b57db533aa32081ba27ff97ea97f7cf"
+}

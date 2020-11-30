@@ -1,0 +1,15 @@
+{
+    "id": "game-blackjack",
+    "name": "Blackjack",
+    "description": "This add-on implements Blackjack game.",
+    "providers": [
+        "Packages\\GameBlackjack\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-blackjack",
+    "source_path": "src",
+    "namespace": "Packages\\GameBlackjack\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/4Ax9o",
+    "min_app_version": "1.15.0",
+    "hash": "92f86faef4afdbc6d0c2485248efc25e"
+}

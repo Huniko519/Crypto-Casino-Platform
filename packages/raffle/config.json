@@ -1,0 +1,15 @@
+{
+    "id": "raffle",
+    "name": "Raffle",
+    "description": "This add-on allows to run raffle (lottery) for all users on a regular basis.",
+    "providers": [
+        "Packages\\Raffle\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "raffle",
+    "source_path": "src",
+    "namespace": "Packages\\Raffle\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/AXKAo",
+    "min_app_version": "1.14.2",
+    "hash": "b9ce9ba0a58a5fc392e80d816d9b247d"
+}

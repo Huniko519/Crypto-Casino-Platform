@@ -1,0 +1,15 @@
+{
+    "id": "game-heads-or-tails",
+    "name": "Heads or Tails",
+    "description": "This add-on implements Heads or Tails game.",
+    "providers": [
+        "Packages\\GameHeadsOrTails\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-heads-or-tails",
+    "source_path": "src",
+    "namespace": "Packages\\GameHeadsOrTails\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/AZgYN",
+    "min_app_version": "1.15.0",
+    "hash": "266285da61effa45f44b6dbd83413ec7"
+}

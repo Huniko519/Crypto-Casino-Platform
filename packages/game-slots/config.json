@@ -1,0 +1,14 @@
+{
+    "id": "game-slots",
+    "name": "Slots",
+    "description": "This add-on implements Slot Machine game.",
+    "providers": [
+        "Packages\\GameSlots\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-slots",
+    "source_path": "src",
+    "namespace": "Packages\\GameSlots\\",
+    "static": {},
+    "purchase_url": "",
+    "min_app_version": "1.15.1"
+}

@@ -1,0 +1,15 @@
+{
+    "id": "game-multi-slots",
+    "name": "Multiple slots",
+    "description": "This add-on allows to run unlimited number of Slots games with different settings.",
+    "providers": [
+        "Packages\\GameMultiSlots\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-multi-slots",
+    "source_path": "src",
+    "namespace": "Packages\\GameMultiSlots\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/JAvPE",
+    "min_app_version": "1.15.1",
+    "hash": "37d87de8e62daeff1f88b2e65796d7db"
+}

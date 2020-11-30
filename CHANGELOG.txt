@@ -1,0 +1,230 @@
+Crypto Casino
+-------------
+
+CHANGES HISTORY
+---------------
+v1.15.2 - 4 July 2020
+- Core changes for Casino Hold'em game (this version is a prerequisite for installing this game add-on).
+
+v1.15.1 - 28 May 2020
+- Slots: ability to set special type of symbol, which will give users free spins when it appears on the reels.
+
+v1.15.0 - 14 May 2020
+- Ability to choose boxed or full-width (fluid) layout.
+- Home page: slider (ability to add / edit / remove slides in the backend).
+- Home page: games cards can be filtered by categories (one or many categories can be assigned to each game in the backend).
+- Home page: main menu bar added.
+- Slots: ability to set background image for the game container in the backend.
+
+v1.14.4 - 14 April 2020
+- Core changes for Heads or Tails game (this version is a prerequisite for installing this game add-on).
+
+v1.14.3 - 3 April 2020
+- Core changes for Dice 3D game (this version is a prerequisite for installing this game add-on).
+- Ability to specify user ID in Delete games task.
+
+v1.14.2 - 30 March 2020
+- Security improvement.
+
+v1.14.1 - 23 March 2020
+- New Transactions page in the backend.
+
+v1.14.0 - 07 March 2020
+- Support for new Payments add-on. Details: https://cryptocasino.financialplugins.com/page/purchase
+
+v1.13.1 - 13 January 2020
+- Security improvement: hide sensitive environment variables from display in debug mode.
+
+v1.13.0 - 12 January 2020
+- Ability to manually input the bet amount in all games.
+- Ability to specify global min / max bet limits for bots (which can be different from the game settings).
+- Ability to send users individual emails from the backend.
+- Some minor fixes and improvements.
+
+v1.12.3 - 12 November 2019
+- Core changes for Baccarat game (this version is a prerequisite for installing the Baccarat add-on).
+
+v1.12.2 - 06 November 2019
+- Bots for American Roulette implemented.
+- Total bet display added to the Users page in the backend.
+
+v1.12.1 - 24 October 2019
+- Core changes for coming soon games - American roulette and Lucky wheel.
+- Some minor fixes.
+
+v1.12.0 - 16 October 2019
+IMPORTANT: All games need to be updated as well after upgrading the app to this version.
+- 4 new color schemes added.
+- Slots: game page re-design, mobile version improvement, performance improvement.
+- Slots: auto play mode.
+- New preloader image for all games.
+- Ability to override default logo and OG image.
+- Append fake email to the user email field if social media provider doesn't provide one (e.g. Steem).
+- Don't allow users to change the email if they have a linked social profile.
+- Bug fix: 500 server error occurs when bots are created and user email verification is enabled.
+
+v1.11.2 - 09 October 2019
+- Bug fix: 500 server error occurs after an add-on is updated through the backend in case Multi-slots add-on is installed.
+
+v1.11.1 - 6 October 2019
+- Bug fix: 2FA stopped working after upgrading to v1.11.0.
+- Bug fix: incorrect authentication URL used in Steem OAuth provider.
+
+v1.11.0 - 4 October 2019
+- Social login implemented. The following providers are supported: Facebook, Twitter, Google, LinkedIn, Yahoo, Coinbase, Steem.
+
+v1.10.2 - 2 October 2019
+- Ability to install and update add-ons from the backend.
+
+v1.10.1 - 27 September 2019
+- Raffle add-on support (this version is a prerequisite for installing the Raffle add-on).
+
+v1.10.0 - 20 September 2019
+- Bonuses functionality improvement. New bonuses:
+  - % of the net loss when user loses more than X credits in a single game.
+  - % of the net win when user wins more than X credits in a single game.
+  - % of the net deposit when user deposits more than X credits at once.
+  - Referrer game loss bonus.
+  - Referrer game win bonus.
+- Ability to view history of transactions for a given user account in the backend.
+- Ability to override header, footer and front page templates.
+- Ability to manually add static HTML pages (similar to Privacy Policy and Terms of Use).
+- Basic support for Chinese, Japanese and Korean languages.
+- Bug fix: delete polymorphic relations (games and account transactions) when games / users are deleted.
+
+v1.9.8 - 09 September 2019
+Bug fix: slots game displays incorrect win combinations if the browser tab is changed during the roll.
+Bug fix: slots game freezes when the browser tab with the game is not active for a while.
+Bug fix: new chat messages are not displayed.
+
+v1.9.7 - 22 August 2019
+Bug fix: errors on the front and some other pages when the slots game is disabled.
+
+v1.9.6 - 16 August 2019
+- Top wins & Top losses pages added to the frontend (under History menu).
+- Bot / admin user badges added to the Account and Games pages in the backend.
+- Weekly period filter added to the leaderboard.
+- Keno game support (this version is a prerequisite for installing the Keno game add-on).
+- Bug fix: Return value of ... must be an instance of object, instance of stdClass returned (relevant for PHP 7.1.x).
+
+v1.9.5 - 14 August 2019
+- New app / add-ons versions availability notifications are added to the Maintenance and Add-ons pages.
+
+v1.9.4 - 13 August 2019
+- Ability to disable installed add-ons in the backend.
+- Minor bug fixes and improvements.
+
+v1.9.3 - 09 August 2019
+- Ability to filter the leaderboard by period (this month, previous month, this year, all time).
+- Net win column added to the leaderboard.
+- 75 Ball Bingo game support (this version is a prerequisite for installing the 75 Ball Bingo game add-on).
+
+v1.9.2 - 31 July 2019
+- Ability to run service tasks (such as create and delete bots, generate and delete games) on the Maintenance page.
+- Ability to add bots moved from the Users page to the Maintenance page.
+
+v1.9.1 - 31 July 2019
+Bug fix: Incorrect biggest win game title on the front page when MultiSlots add-on is installed.
+
+v1.9.0 - 29 July 2019
+IMPORTANT! ALL ADD-ONS NEED TO BE UPDATED AFTER INSTALLING THIS VERSION.
+- Admin dashboard significantly improved.
+- Ability to view all games of a given user in the backend.
+- Extra games stats added to user profile pages.
+- Other minor fixes and enhancements.
+
+v1.8.2 - 16 July 2019
+- Ability to override site-wide referral program settings (bonuses amounts) on a user level.
+- Ability to keep custom CSS styles in a separate stylesheet, which is not overwritten when upgrading the app.
+
+v1.8.1 - 19 June 2019
+- Multi-slot games support in the application core (extra add-on is also required to create multiple slots games).
+
+v1.8.0 - 13 June 2019
+- Two-factor authentication (via Google Authenticator app).
+- Ability to view system info and application logs in the backend.
+
+v1.7.2 - 12 June 2019
+- Important security patch (it's recommended to upgrade as soon as possible).
+- Laravel framework updated to the latest 5.7.x version.
+
+v1.7.1 - 11 June 2019
+- Dice game support (this version is a prerequisite for installing the Dice game add-on).
+
+v1.7.0 - 31 May 2019
+- Roulette block added to the home page (roulette game add-on is required).
+- Ability to specify by how much the bet size should be incremented / decremented when +/- buttons are clicked (all games).
+- Ability to enable maintenance mode in the backend when upgrading the app or installing add-ons.
+- Minor bug fixes and improvements.
+
+v1.6.5 - 14 May 2019
+- Ability to view leaderboard for each game separately.
+
+v1.6.4 - 10 May 2019
+- Bots support for Roulette game.
+
+v1.6.3 - 21 Apr 2019
+- Bug fix: HTML content is displayed inside the <title> on games pages.
+
+v1.6.2 - 16 Apr 2019
+- Bug fix: balance decimal part is not displayed in Slots game.
+
+v1.6.1 - 10 April 2019
+- Admin dashboard performance optimization and numbers formatting.
+- Other minor fixes.
+
+v1.6.0 - 03 April 2019
+- IMPORTANT!
+  Deposits & withdrawals functionality removed at Envato request to meet Acceptable Use Policy (https://themeforest.net/legal/acceptable_use_policy).
+- Bug fix: incorrect order of games on Recent games, My games pages.
+- Front page enhancement.
+
+v1.5.2 - 18 March 2019
+- Debit user account immediately when user makes a withdrawal request.
+- Verify that user is active when browsing pages for authenticated users, logging in or resetting password.
+
+v1.5.1 - 15 March 2019
+- Some technical improvements.
+
+v1.5.0 - 14 March 2019
+- Provably fair algorithm implemented.
+- Ability to manually debit / credit user accounts from the backend.
+- Search by user name / email added to the following pages in the backend: Users, Accounts, Deposits, Withdrawals.
+- My games page added to the frontend with history of all user games.
+- Ability to view extended game details in the backend.
+- Max win column added to the Leaderboard page.
+
+v1.4.0 - 20 February 2019
+- Chat implemented.
+- User name is now required to be unique on sign up.
+
+v1.3.0 - 18 February 2019
+- Referral program implemented. Users can invite their friends and get bonus credits when the referred users sign up, make a deposit or play a game.
+
+v1.2.0 - 12 February 2019
+- Ability to automatically process withdrawals through coinpayments.net API.
+- Optional user emails verification feature implemented (can be enabled / disabled in the backend).
+- Optional reCaptcha v.2 validation added to login, registration, forgot password forms.
+- Balances page added to the backend, which displays current coins balances from a linked coinpayments.net account.
+- Slots: win combinations are now matched only from left to right like in traditional slots games.
+- Bug fix: logging can not be disabled.
+- Laravel framework updated to 5.7.26.
+
+v1.1.3 - 14 January 2019
+- Password reset email notifications added.
+- Button colors optimization for light blue theme.
+
+v1.1.2 - 13 January 2019
+- Bots feature implemented. An administrator can generate any number of bots through the backend.
+  On a regular basis bots will "wake up" and play games with random parameters.
+
+v1.1.1 - 13 January 2019
+- Button colors optimization for dark purple theme.
+
+v1.1.0 - 11 January 2019
+- Light blue theme added.
+- Min / max bet settings added for Slots game.
+- Minor bug fixes and improvements.
+
+v1.0.0 - 27 December 2018
+- Initial release.

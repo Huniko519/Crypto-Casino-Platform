@@ -1,0 +1,15 @@
+{
+    "id": "game-roulette",
+    "name": "European Roulette",
+    "description": "This add-on implements European Roulette game.",
+    "providers": [
+        "Packages\\GameRoulette\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-roulette",
+    "source_path": "src",
+    "namespace": "Packages\\GameRoulette\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/NJvL2",
+    "min_app_version": "1.15.0",
+    "hash": "3b777aa631586b9330fe2c910f416271"
+}

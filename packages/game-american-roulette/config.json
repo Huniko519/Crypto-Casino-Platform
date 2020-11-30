@@ -1,0 +1,15 @@
+{
+    "id": "game-american-roulette",
+    "name": "American Roulette",
+    "description": "This add-on implements American Roulette game.",
+    "providers": [
+        "Packages\\GameAmericanRoulette\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-american-roulette",
+    "source_path": "src",
+    "namespace": "Packages\\GameAmericanRoulette\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/Qgj4P",
+    "min_app_version": "1.15.0",
+    "hash": "925400943be31ecf9d761108641fdef2"
+}

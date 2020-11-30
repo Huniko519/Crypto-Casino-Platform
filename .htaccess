@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # RewriteBase /public
+    RewriteCond %{REQUEST_URI} !^/install\.php
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

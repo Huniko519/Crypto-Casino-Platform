@@ -1,0 +1,15 @@
+{
+    "id": "game-baccarat",
+    "name": "Baccarat",
+    "description": "This add-on implements Baccarat game.",
+    "providers": [
+        "Packages\\GameBaccarat\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-baccarat",
+    "source_path": "src",
+    "namespace": "Packages\\GameBaccarat\\",
+    "static": {},
+    "purchase_url": " https://1.envato.market/KANrn",
+    "min_app_version": "1.15.0",
+    "hash": "277985779bc9911c7d32b6fb86b9d3a5"
+}

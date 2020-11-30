@@ -1,0 +1,15 @@
+{
+    "id": "game-keno",
+    "name": "Keno",
+    "description": "This add-on implements Keno game.",
+    "providers": [
+        "Packages\\GameKeno\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-keno",
+    "source_path": "src",
+    "namespace": "Packages\\GameKeno\\",
+    "static": {},
+    "purchase_url": "https://1.envato.market/70B65",
+    "min_app_version": "1.15.0",
+    "hash": "c321384ec01bf09b96da1ff83043ffa5"
+}

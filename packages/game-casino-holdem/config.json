@@ -1,0 +1,15 @@
+{
+    "id": "game-casino-holdem",
+    "name": "Casino Holdem",
+    "description": "This add-on implements Casino Holdem game.",
+    "providers": [
+        "Packages\\GameCasinoHoldem\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "game-casino-holdem",
+    "source_path": "src",
+    "namespace": "Packages\\GameCasinoHoldem\\",
+    "static": {},
+    "purchase_url": "https://codecanyon.net/item/casino-holdem-poker-game-addon-for-crypto-casino/27576197",
+    "min_app_version": "1.15.2",
+    "hash": "516628c01d14d13a28b8ef64c0689f1e"
+}

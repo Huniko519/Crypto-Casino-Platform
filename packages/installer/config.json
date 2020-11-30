@@ -1,0 +1,14 @@
+{
+    "id": "installer",
+    "name": "Installer",
+    "description": "This add-on allows to install the application using web interface.",
+    "providers": [
+        "Packages\\Installer\\Providers\\PackageServiceProvider"
+    ],
+    "base_path": "installer",
+    "source_path": "src",
+    "namespace": "Packages\\Installer\\",
+    "static": {},
+    "purchase_url": "",
+    "min_app_version": "1.9.0"
+}
